@@ -3,3 +3,7 @@ forge_version=10.13.4.1558-1.7.10
 mod_version=0.79.29
 mod_id=TerraFirmaCraft
 group_name=com.bioxx.tfc
+code_chicken_core_version=1.7.10-1.0.4.35:dev
+code_chicken_lib_version=1.7.10-1.1.3.127:dev
+nei_version=1.7.10-1.0.4.95:dev
+waila_version=1.5.11-RC2-NONEI_1.7.10

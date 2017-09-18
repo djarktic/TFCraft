@@ -44,10 +44,6 @@ allprojects {
 }
 
 repositories {
-    maven { // The repo from which to get waila
-        name "Mobius Repo"
-        url "http://default.mobiusstrip.eu/maven"
-    }
     maven { // the repo from which to get NEI and stuff 
         name 'CB Repo'
         url "http://chickenbones.net/maven/"
@@ -59,7 +55,6 @@ dependencies {
 	compile "codechicken:CodeChickenCore:${config.code_chicken_core_version}"
 	compile "codechicken:CodeChickenLib:${config.code_chicken_lib_version}"
 	compile "codechicken:NotEnoughItems:${config.nei_version}"
-	compile "mcp.mobius.waila:Waila:${config.waila_version}"
 }
 }
 
